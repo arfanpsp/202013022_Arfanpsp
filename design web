@@ -1,0 +1,126 @@
+<html>
+<head>
+	<title>Kelas B</title>
+	<style type="text/css">
+	body{
+		padding: 0;
+		margin: 0;
+		background-color: #20B2AA
+	}
+	td{
+		padding: 10px;
+	}
+
+	.img-card{
+		background-color:blue ;
+		border: 1px solid white;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		padding: 10px 10px 0px 10px;
+	}
+	.kontak{
+		background-color: white;
+		padding: 10px;
+	}
+
+	.skils{
+		background-color: white;
+		padding: 10px;
+	}
+	.footer{
+		background-color:violet;
+
+		padding: 10px;
+		font-size: 25px;
+		text-align: center;
+	}
+	h1{
+		color: red;
+	}
+	p{
+		color: darkgreen;
+	}
+
+</style>
+</head>
+<body>
+	<table border="1" width="100%" style="height: 900px;">
+		<!-- tr pembungkus -->
+		<!-- th header/heading baris/kolom -->
+		<!-- td body konten tabel -->
+		<!-- colspan="" colom -->
+		<!-- rowspan="" baris -->
+		<tr>
+			<td rowspan="1" style="width:30%" valign="top" class="warna1">
+				<div class="img-card">
+					<img src="ArfanPsp.jpg" width="100%" alt="no gambar">					
+				</div>
+				<div class="kontak">
+					<h1>Biodata</h1>
+					<h2>Arfan Psp</h2>
+					<p>Koto Ringin,31 Maret 2000</p>
+					<p>Mahasiswa</p>
+					<p>arfan@gmail.com</p>
+					<p>085356497485</p>
+				</div>
+				
+			</td>
+			<td> <center><h2>MOTIVASI</h2></center>
+				<p>" Hidup ini dapat berubah Sesuai dengan apa yang kita ingin kan hanya perlu usaha dan bersungguh-sungguh dalam mengejar impian apa yang kita ingin kan"</p>
+
+			</td>
+
+		</tr>
+		<tr>
+			<!-- <td>foto kontak</td> -->
+			<!-- <td> Kelas A</td> -->
+		<!-- </tr> -->
+		
+		<tr>
+			<td>
+				<div class="skils">
+					<h1>Organisasi Yang di Ikuti</h1>
+					<p>Badan Eksekutif Mahasiswa(BEM)</p>
+					<p>Lembaga Dakwah Kampus(LDK)</p>
+					<p>Forum Silaturahmi Lembaga Dakwah Kampus (FSLDK)</p>
+				</div>
+				
+			</td>
+			<!-- <td><center><h2>PENGALAMAN</td><center> -->
+				</td>
+			<td> <center><h2>DESCRIPTION</h2></center>
+				<p>" saya senang mengikuti organisasi dari smp saya sudah mengikuti organisasi.saya pernah mengikuti kegiatan di tingkat kabupaten maupun provinsi dan saya juga pernah membuat acara di tingkat kabupaten di sma saya. </p>
+
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<div class="skils">
+					<h1>Hobi</h1>
+					<p>Berenang</p>
+					<p>Olahrga</p>
+					<p>Membaca</p>	
+				</div>
+				
+			</td>
+			<!-- <td><center><h1>PENGALAMAN</td><center> -->
+				</td>
+			<td> <center><h2>DESCRIPTION</h2></center>
+				<p>" saya hobi berolahraga tapi Hobi yang saya paling sukai adalah berenang dan membaca buku seperti buku-buku tentang keuangan ataupun motivasi-motivasi"</p>
+
+			<td>
+		</tr>
+		<tr>
+			<!-- <td>bahasa</td> -->
+			<!-- <td>antas</td> -->
+		<!-- </tr> -->
+		<!-- <tr> -->
+			<td colspan="2">
+				<div class="footer">
+					<marquee> Teknik Informatika</marquee> 
+				</div>
+			</td>
+			<!-- <td>footer</td> -->
+		</tr>
+	</table>
+</body>
+</html>
